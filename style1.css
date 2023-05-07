@@ -1,0 +1,98 @@
+body{
+    background: linear-gradient(#0f596f,#68b2c8);
+    font-size: 13pt;
+    font-family: tahoma;
+    color: azure;
+}   
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: #cee1e6;
+}
+
+#wrapper{
+    width: 980px;
+    margin: 80px auto;
+}
+
+p{
+    text-align: justify;
+}
+
+#content{
+    margin-top: 30px ;
+    width: 600px;    
+    display: inline-block;
+    vertical-align: top;
+    line-height: 32px;
+    padding-left: 40px;
+
+
+}
+
+#sidebar{
+    width: 245px;
+    display: inline-block;
+}
+
+#header{
+    color: #fff;
+    background: -webkit-linear-gradient(left,#934b07,#c07835);
+    height: 190px;
+    border-radius: 10px 10px 0 0;
+}
+
+#logo{
+    padding-left: 45px;
+    line-height: 168px;
+}
+
+#logo h1{
+    font-family: Verdana;
+    font-size: 36pt;
+}
+
+#menu{
+    font-size: verdana;
+    height: 62px;
+    line-height: 62px;
+    background: -webkit-linear-gradient(left,#b03535 , #962501);
+    border-radius: 10px 10px 0 0;
+    border-top: 1px solid #f06940;
+    border-bottom: 1px solid #cf8743;
+    padding: 0 45px 0 45px;
+}
+
+#menu a{
+    padding: 0 10px 0 10px;
+}
+
+#page{
+    background-color: #fff;
+    padding: 45px 45px 0 45px;
+    color: rgb(75, 75, 75);
+    border-radius: 0 0 10px 10px;
+}
+
+footer{
+    text-align: center;
+    margin-bottom: 85px;
+}
+
+#sidebar a, .post2 a{
+    border-top: 1px solid #303030;
+    padding: 15px 0 15px 0;
+    display: block;
+    color: #d10000;
+}
+
+.post2{
+    display: inline-block;
+}
+
