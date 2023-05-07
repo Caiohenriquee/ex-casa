@@ -1,0 +1,73 @@
+body{
+ font-family: cursive;
+}
+
+figure{
+   width: 300px;
+   margin: auto;
+box-shadow: 5px 5px 10px #000; 
+border-radius: 20px;
+}
+
+figure>img{ /*so muda a imagem q esta dentr odo figure*/
+    width: 300px;
+    border-radius: 20px 20px 0 0;
+}
+h1,.dist{
+    padding: 0px;
+    display: inline-block;
+    width: 49%;
+}
+
+h1{
+    font-size: 20pt;
+    margin: 0;
+    padding: 0;
+}
+
+.dist img{
+    vertical-align: middle;
+}
+
+.dist{
+    text-align: right;
+}
+
+.estrelas img{
+    width: 100px;
+    margin-left: 0
+}
+
+figcaption{
+    padding: 10px;
+}
+
+.dias{
+    text-align: center;
+}
+
+.horario *{ /*asterisco seleciona tudo dentro das classes*/
+display: inline-block;
+width: 65px;
+line-height: 30px;
+}
+
+.clock{
+    display: inline-block;
+    width: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.horario{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.reserva{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(91, 91, 247);
+    padding-top: 5px;
+}
